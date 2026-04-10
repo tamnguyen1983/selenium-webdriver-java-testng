@@ -37,6 +37,7 @@ public class Topic_03_XPath_Css {
 //        driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
 //        driver.findElement(By.xpath("//li[@class='success-msg'//span]"));
     }
+
     @Test
     public void Register_02_Invalid_Email (){
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
